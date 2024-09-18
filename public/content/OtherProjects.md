@@ -1,23 +1,23 @@
-## Project 1
-Description
+## HOSPITAL MANAGEMENT
+A hospital management system with a simple web-based interface.
 - Tags: Category 1
 - Badges:
-  - Badge [blue]
+  - DONE [blue]
 - Buttons:
   - Link [https://example.com]
 
-## Project 2
-Description
+## Perpustakaan
+The book borrowing system at the Central Library of SMK Negeri 6 Jember is website-based.
 - Tags: Category 2
 - Badges:
-  - Badge [blue]
+  - DONE [blue]
 - Buttons:
   - Link [https://example.com]
 
-## Project 3
-Description
+## Bruno On Stage
+Website application for selling tickets to Bruno Mars Live in Jakarta concert.
 - Tags: Category 3
 - Badges:
-  - Badge [blue]
+  - DONE [blue]
 - Buttons:
   - Link [https://example.com]

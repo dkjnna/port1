@@ -13,17 +13,17 @@ import ProfileArray from "./ProfileArray";
 
 export default function Header({ color }) {
   const profile = ProfileArray();
+  
   const scrollToContact = () => {
     const contactSection = document.querySelector("#contact");
     contactSection.scrollIntoView({ behavior: "smooth" });
   };
-  const linkedin = () => {
-    window.open(
-                `${profile.linkedin}`,
-                "_blank",
-                "noreferrer,noopener"
-              );
+
+  const whatsapp = () => {
+    // Ganti nomor telepon dan pesan sesuai kebutuhan
+    window.open("https://wa.me/6285732444518", "_blank", "noreferrer,noopener");
   };
+
   return (
     <>
       <Heading>
@@ -72,7 +72,7 @@ export default function Header({ color }) {
               _hover={{
                 bg: `${color}.500`,
               }}
-              onClick={linkedin}
+              onClick={whatsapp}
             >
               Let's connect!
             </Button>

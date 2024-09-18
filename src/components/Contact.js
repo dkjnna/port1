@@ -14,14 +14,14 @@ import ProfileArray from "./ProfileArray";
 export default function Contact({ color }) {
   const profile = ProfileArray();
   const linkedin = () => {
-    window.open(`${profile.linkedin}`, "_blank", "noreferrer,noopener");
+    window.open("https://www.linkedin.com/in/farid-fadilah-634ab2326/", "_blank", "noreferrer,noopener");
   };
   const github = () => {
-    window.open(`${profile.github}`, "_blank", "noreferrer,noopener");
+    window.open("https://github.com/dkjnna", "_blank", "noreferrer,noopener");
   };
   const email = () => {
-    window.open(`mailto:${profile.email}`, "_blank", "noreferrer,noopener");
-  };
+    window.open("mailto:faridfadilah70@gmail.com", "_blank", "noreferrer,noopener");
+  };  
   return (
     <>
       <Container maxW={"3xl"} id="contact">
@@ -50,9 +50,9 @@ export default function Contact({ color }) {
             </Text>
             <Center>
               <HStack pt={4} spacing={4}>
-                <FaLinkedin onClick={linkedin} size={28} />
-                <FaGithub onClick={github} size={28} />
-                <FaEnvelope onClick={email} size={28} />
+                <FaLinkedin onClick={linkedin} size={28} style={{ cursor: 'pointer' }} />
+                <FaGithub onClick={github} size={28} style={{ cursor: 'pointer' }} />
+                <FaEnvelope onClick={email} size={28} style={{ cursor: 'pointer' }} />
               </HStack>
             </Center>
           </Stack>
